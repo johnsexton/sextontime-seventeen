@@ -1,0 +1,619 @@
+/*
+Theme Name:SextonTime Seventeen
+Author:John Sexton
+Author URI:http://sextontime.com/
+Description: Wordpress theme for my website www.sextontime.com in 2017.
+*/
+
+html {
+     color: #222;
+     font-size: 1em;
+     line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0;
+    padding: 10px;
+    background: #ff0000;
+    color: #fff;
+}
+.browserupgrade a {
+    color: #fff;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background: #222;
+}
+#page {
+    margin: 0 auto;
+    position: relative;
+    max-width: 1920px;
+}
+#homepage-ribbon {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    overflow: hidden;
+}
+#ribbon {
+    height: 115px;
+    background: #222;
+}
+video {
+    position: absolute;
+    top: -9999px; right: -9999px;
+    bottom: -9999px; left: -9999px;
+    margin: auto;
+    z-index: -10;
+}
+.menu-button {
+    margin: 25px 10px;
+    width: 40px;
+    height: 60px;
+    display: inline-block;
+    background: url(images/menu.png) no-repeat;
+    vertical-align: top;
+}
+#site-title {
+    display: inline-block;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 36px;
+    vertical-align: top;.
+}
+#site-title a {
+    padding: 5px 0 5px 45px;
+    color: #ffffff;
+    text-decoration: none;
+    background: url(images/logo.png) no-repeat;
+    display: inline-block;
+}
+
+#site-description-wrapper {
+    margin: 0 auto;
+    display: table;
+    height: 65vh;
+}
+#site-description {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+#site-description em {
+    display: block;
+    color: #00aaff;
+}
+
+#header-menu {
+    padding: 30px 0;
+    position: fixed;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    background: #00aaff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 99;
+    display: none;
+}
+#header-menu ul {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 650px;
+}
+#header-menu ul li {
+    list-style-type: none;
+}
+#header-menu ul li a {
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#header-menu ul li a:hover {
+    background: #0066aa;
+}
+#header-menu .cancel-menu {
+    position: absolute;
+    top: 5px; right: 5px;
+    width: 40px;
+    height: 40px;
+    background: url(images/cancel.png) no-repeat;
+}
+
+
+#content a {
+    color: #00aaff;
+    text-decoration: none;
+}
+#content a:hover {
+  text-decoration: underline;
+}
+#content .section-header a,
+#content .latest a {
+    color: #fff;
+}
+
+.section-content,
+.homepage-profile {
+    position: relative;
+    font-weight: bold;
+}
+.section-header {
+    padding: 60px 40px 80px;
+    background: #00aaff;
+}
+.section-title {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 50px;
+}
+
+.profile-header {
+    padding: 60px 40px;
+    background: #eee;
+}
+.profile-portrait {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+}
+.profile-title {
+    margin: 0;
+    padding: 0;
+    color: #00aaff;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 50px;
+}
+
+.latest ul {
+    margin: 0;
+    padding: 40px 10px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    background: #eee;
+}
+.latest ul li {
+    margin: 10px;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    max-width: 300px;
+    display: none;
+}
+.latest ul li:nth-child(1),
+.latest ul li:nth-child(2) {
+    display: inline-block;
+}
+.latest .meta {
+    padding: 40px 20px;
+    background: #222;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .9;
+}
+.latest ul li a {
+    display: inline-block;
+    width: 100%;
+}
+.latest ul li a img {
+    width: 100%;
+}
+.meta {
+    text-align: left;
+}
+.meta .date {
+    font-weight: normal;
+    font-style: italic;
+}
+.meta .preview-title {
+    font-size: 20px;
+}
+
+.thatsall {
+    text-align: center;
+}
+
+
+article {
+    background: #fff;
+}
+.entry-thumbnail img {
+    margin: 0 auto;
+    width: calc(100% - 40px);
+    height: auto;
+    border: 20px solid #ddd;
+}
+.entry-header {
+    background: #00aaff;
+}
+.entry-title,
+.page-title {
+    margin: 0 auto;
+    padding: 60px 20px;
+    color: #fff;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+    max-width: 1200px;
+}
+.header-meta {
+  font-size: 20px;
+  line-height: 20px;
+  color: #222;
+}
+.entry-content {
+    margin: 25px auto;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 1200px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Droid Serif', serif;
+}
+
+#copyright {
+    padding: 80px 25px;
+    font-weight: bold;
+    color: #fff;
+    background: #222;
+    text-align: center;
+}
+#footer-menu {
+  padding: 20px 10px;
+}
+#footer-menu ul {
+    margin: 0;
+    padding: 0
+}
+#footer-menu ul li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+}
+#footer-menu ul li a {
+    padding: 0 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+#footer-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* ==========================================================================
+   Wordpress Core styles
+   ========================================================================== */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+img.alignnone {
+    margin: 5px 20px 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+.invisible {
+    visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   ========================================================================== */
+
+@media only screen and (min-width: 750px) {
+    .menu-button { display: none; }
+    #site-title { margin: 25px; }
+    #site-description em { display: inline; }
+    #header-menu {
+        padding: 40px 25px 20px 0;
+        position: relative;
+        background: none;
+        float: right;
+        display: inline-block;
+    }
+    #header-menu h1 { display: none; }
+    #header-menu .cancel-menu { display: none; }
+    #header-menu ul li {
+        display: inline-block;
+    }
+    #header-menu ul li a {
+        padding: 10px;
+        width: auto;
+    }
+    #header-menu ul li a:hover {
+        background: none;
+        border-bottom: 3px solid #00aaff;
+    }
+
+    .profile-portrait {
+        padding: 0 20px 0 0;
+        width: 200px;
+        float: left;
+    }
+
+    .entry-title {
+        font-size: 50px;
+    }
+
+    #copyright {
+        text-align: left;
+    }
+    #footer-menu {
+        padding: 0;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #site-description { font-size: 60px; }
+
+    .section-header,
+    .profile-header {
+        padding: 60px 200px 80px;
+    }
+
+    .latest ul li:nth-child(3) {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .latest ul li:nth-child(4) {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .latest ul li:nth-child(5) {
+        display: inline-block;
+    }
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   ========================================================================== */
+
+@media print {
+   *,
+   *:before,
+   *:after,
+   *:first-letter,
+   *:first-line {
+       background: transparent !important;
+       color: #000 !important; /* Black prints faster:
+                                  http://www.sanbeiji.com/archives/953 */
+       box-shadow: none !important;
+       text-shadow: none !important;
+   }
+
+   a,
+   a:visited {
+       text-decoration: underline;
+   }
+
+   a[href]:after {
+       content: " (" attr(href) ")";
+   }
+
+   abbr[title]:after {
+       content: " (" attr(title) ")";
+   }
+
+   /*
+    * Don't show links that are fragment identifiers,
+    * or use the `javascript:` pseudo protocol
+    */
+
+   a[href^="#"]:after,
+   a[href^="javascript:"]:after {
+       content: "";
+   }
+
+   pre,
+   blockquote {
+       border: 1px solid #999;
+       page-break-inside: avoid;
+   }
+
+   /*
+    * Printing Tables:
+    * http://css-discuss.incutio.com/wiki/Printing_Tables
+    */
+
+   thead {
+       display: table-header-group;
+   }
+
+   tr,
+   img {
+       page-break-inside: avoid;
+   }
+
+   img {
+       max-width: 100% !important;
+   }
+
+   p,
+   h2,
+   h3 {
+       orphans: 3;
+       widows: 3;
+   }
+
+   h2,
+   h3 {
+       page-break-after: avoid;
+   }
+}
