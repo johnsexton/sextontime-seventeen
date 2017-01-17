@@ -58,7 +58,7 @@ textarea {
    ========================================================================== */
 
 body {
-    background: #222;
+    background: #fafafa;
 }
 #page {
     margin: 0 auto;
@@ -73,7 +73,6 @@ body {
 }
 #ribbon {
     height: 115px;
-    background: #222;
 }
 video {
     position: absolute;
@@ -161,7 +160,10 @@ video {
     background: url(images/cancel.png) no-repeat;
 }
 
-
+#content {
+    margin: 0 auto;
+    max-width: 1400px;
+}
 #content a {
     color: #00aaff;
     text-decoration: none;
@@ -177,7 +179,7 @@ video {
 .section-content,
 .homepage-profile {
     position: relative;
-    font-weight: bold;
+    font-size: 20px;
 }
 .section-header {
     padding: 60px 40px 80px;
@@ -188,19 +190,18 @@ video {
     padding: 0;
     color: #fff;
     font-family: "Century Gothic", sans-serif;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .profile-header {
     padding: 60px 40px;
-    background: #eee;
 }
 .profile-portrait {
     margin: 0 auto;
     display: block;
     width: 200px;
 }
-.profile-title {
+.portrait-title {
     margin: 0;
     padding: 0;
     color: #00aaff;
@@ -214,7 +215,6 @@ video {
     overflow: hidden;
     text-align: center;
     vertical-align: top;
-    background: #eee;
 }
 .latest ul li {
     margin: 10px;
@@ -299,7 +299,6 @@ article {
 
 #copyright {
     padding: 80px 25px;
-    font-weight: bold;
     color: #fff;
     background: #222;
     text-align: center;
