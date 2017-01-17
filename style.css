@@ -72,7 +72,9 @@ body {
     overflow: hidden;
 }
 #ribbon {
+    margin-bottom: 50px;
     height: 115px;
+    background: #333;
 }
 video {
     position: absolute;
