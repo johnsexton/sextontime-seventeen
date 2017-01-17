@@ -3,7 +3,7 @@
         <h1 class="entry-title">
             <div class="header-meta">
                 <?php if ( get_post_type( get_the_ID() ) == 'projects' ) : ?>
-                Project Name:</div>
+                Project Name:
                 <?php elseif ( get_post_type( get_the_ID() ) == 'fishing' ) : ?>
                 Fishing Update:
                 <?php else : ?>
