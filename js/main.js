@@ -34,17 +34,13 @@ $(document).ready( function() {
         }
     });
 
-    var isDesktop = ( function() { return !( 'ontouchstart' in window ) || !( 'onmsgesturechange' in window ); } )();
-    window.isDesktop = isDesktop;
-    if( isDesktop ) {
-        $('.latest .meta').hide();
-        $( '.preview-link' ).hover(
-            function() {
-                $(this).find('.meta').slideDown();
-            }, function() {
-                $(this).find('.meta').slideUp();
-            }
-        );
-    }
+    // show featured image on hover for latest posts
+    $( '.preview-link' ).hover(
+        function() {
+            $(this).find('.meta').slideUp();
+        }, function() {
+            $(this).find('.meta').slideDown();
+        }
+    );
 
 });
