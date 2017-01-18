@@ -194,7 +194,7 @@ video {
     font-size: 60px;
 }
 .profile {
-    padding: 60px 40px;
+    padding: 60px 40px 80px;
 }
 .profile .section-title {
     color: #333;
@@ -485,7 +485,6 @@ img.aligncenter {
         background: none;
         border-bottom: 3px solid #00aaff;
     }
-
     .portrait {
         margin-top: -75px;
         padding: 0 0 0 20px;
@@ -509,7 +508,8 @@ img.aligncenter {
 @media only screen and (min-width: 1000px) {
     #site-description { font-size: 60px; }
 
-    .section-header {
+    .section-header,
+    .profile {
         padding: 60px 200px 80px;
     }
 
