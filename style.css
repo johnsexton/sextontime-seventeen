@@ -178,8 +178,7 @@ video {
     color: #fff;
 }
 
-.section-content,
-.homepage-profile {
+.section-content {
     position: relative;
     font-size: 20px;
 }
@@ -194,21 +193,17 @@ video {
     font-family: "Century Gothic", sans-serif;
     font-size: 60px;
 }
-
-.profile-header {
+.profile {
     padding: 60px 40px;
 }
-.profile-portrait {
+.profile .section-title {
+    color: #333;
+}
+.portrait {
     margin: 0 auto;
+    padding: 20px 0;
     display: block;
     width: 200px;
-}
-.portrait-title {
-    margin: 0;
-    padding: 0;
-    color: #00aaff;
-    font-family: "Century Gothic", sans-serif;
-    font-size: 50px;
 }
 
 .latest ul {
@@ -250,7 +245,7 @@ video {
     text-align: left;
 }
 .meta .date {
-    font-weight: normal;
+    font-size: 14px;
     font-style: italic;
 }
 .meta .preview-title {
@@ -491,10 +486,11 @@ img.aligncenter {
         border-bottom: 3px solid #00aaff;
     }
 
-    .profile-portrait {
-        padding: 0 20px 0 0;
+    .portrait {
+        margin-top: -75px;
+        padding: 0 0 0 20px;
         width: 200px;
-        float: left;
+        float: right;
     }
 
     .entry-title {
@@ -513,8 +509,7 @@ img.aligncenter {
 @media only screen and (min-width: 1000px) {
     #site-description { font-size: 60px; }
 
-    .section-header,
-    .profile-header {
+    .section-header {
         padding: 60px 200px 80px;
     }
 
