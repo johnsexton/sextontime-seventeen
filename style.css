@@ -266,22 +266,19 @@ article {
 }
 .entry-thumbnail img {
     margin: 0 auto;
-    width: calc(100% - 40px);
+    width: 100%;
     height: auto;
-    border: 20px solid #ddd;
 }
 .entry-header {
-    background: #00aaff;
 }
-.entry-title,
-.page-title {
+.entry-title {
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 60px 40px;
     color: #fff;
     font-family: "Century Gothic", sans-serif;
     font-size: 35px;
     line-height: 50px;
-    max-width: 1200px;
+    background: #00aaff;
 }
 .header-meta {
   font-size: 20px;
