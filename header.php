@@ -41,14 +41,16 @@
         <?php else : ?>
 
         <div id="ribbon">
-            <div class="menu-button"></div>
-			<h1 id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">JOHNSEXTON</a></h1>
-			<nav id="header-menu" role="navigation">
-				<h1>Main Menu</h1>
-				<div class="visuallyhidden skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'theme' ); ?>"><?php _e( 'Skip to content', 'theme' ); ?></a></div>
-				<?php wp_nav_menu( array( 'theme_location' => 'header' ) ); ?>
-			</nav><!-- #header-menu -->
-        </div><!-- #robbon -->
+            <div id="ribbon-wrapper">
+                <div class="menu-button"></div>
+    			<h1 id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">JOHNSEXTON</a></h1>
+    			<nav id="header-menu" role="navigation">
+    				<h1>Main Menu</h1>
+    				<div class="visuallyhidden skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'theme' ); ?>"><?php _e( 'Skip to content', 'theme' ); ?></a></div>
+    				<?php wp_nav_menu( array( 'theme_location' => 'header' ) ); ?>
+    			</nav><!-- #header-menu -->
+            </div><!-- #ribbon-wrapper -->
+        </div><!-- #ribbon -->
     <?php endif; // if is_front_page() ?>
 
     </header><!-- #header -->

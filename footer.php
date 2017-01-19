@@ -1,13 +1,15 @@
 	</div><!-- #content -->
 
-	<footer id="copyright" role="contentinfo">
-        <nav id="footer-menu" role="navigation">
-            <h1 class="visuallyhidden">Main Menu</h1>
-            <?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
-        </nav><!-- #access -->
+	<footer id="site-footer" role="contentinfo">
+		<div id="footer-wrapper">
+	        <nav id="footer-menu" role="navigation">
+	            <h1 class="visuallyhidden">Main Menu</h1>
+	            <?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
+	        </nav><!-- #access -->
 
-		Copyright &copy; <?php echo date("Y");?> - John Sexton. <br />All Rights Reserved.
-	</footer><!-- #colophon -->
+			Copyright &copy; <?php echo date("Y");?> - John Sexton. <br />All Rights Reserved.
+		</div><!-- .footer-wrapper -->
+	</footer><!-- #site-footer -->
 
 </div><!-- #page -->
 

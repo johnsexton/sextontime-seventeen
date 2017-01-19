@@ -72,9 +72,13 @@ body {
     overflow: hidden;
 }
 #ribbon {
-    margin-bottom: 50px;
-    height: 115px;
+    text-align: 3;
     background: #333;
+}
+#ribbon-wrapper {
+    margin: 0 auto 50px auto;
+    max-width: 1400px;
+    height: 115px;
 }
 video {
     position: absolute;
@@ -294,11 +298,16 @@ article {
     font-family: 'Droid Serif', serif;
 }
 
-#copyright {
-    padding: 80px 25px;
+#site-footer {
     color: #fff;
-    background: #222;
+    background: #333;
     text-align: center;
+}
+#footer-wrapper {
+    margin: 0 auto;
+    padding: 80px 25px;
+    max-width: 1400px;
+    text-align: left;
 }
 #footer-menu {
   padding: 20px 10px;
