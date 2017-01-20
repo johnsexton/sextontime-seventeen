@@ -9,8 +9,9 @@
                 Project Name:
                 <?php elseif ( get_post_type( get_the_ID() ) == 'fishing' ) : ?>
                 Fishing Update:
-                <?php else : ?>
+                <?php elseif ( get_post_type( get_the_ID() ) == 'journal' ) : ?>
                 Journal Entry:
+                <?php else: ?>
                 <?php endif; ?>
             </div>
             <?php the_title(); ?>
