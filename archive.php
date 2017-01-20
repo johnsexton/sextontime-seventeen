@@ -1,19 +1,16 @@
 <?php get_header(); ?>
 
-<section class="section-content">
+<section class="section-content latest">
 
 	<?php if ( have_posts() ) : ?>
 
 	<header class="section-header">
-		<?php
-			the_archive_title( '<h1 class="page-title">', '</h1>' );
-			the_archive_description( '<div class="taxonomy-description">', '</div>' );
-		?>
+		<h1 class="section-title"><?php post_type_archive_title(); ?></h1>
 	</header>
 
 	<?php rewind_posts(); ?>
 
-	<ul>
+	<ul class="clearfix">
 		<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
