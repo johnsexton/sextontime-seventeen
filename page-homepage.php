@@ -8,7 +8,7 @@ get_header(); ?>
 <section class="section-content profile clearfix">
     <h1 class="section-title">About Me</h1>
     <img src="<?php bloginfo('template_url'); ?>/images/portrait.png" class="portrait" alt="Portrait of John Sexton" />
-    I currently work as an Instructional Technologist @ <a href="https://erau.edu/">Embry-Riddle Aeronautical University</a>. I enjoy learning about, keeping up with, and teaching others how to use technology. I am an alumnus of the <a href="http://www.ucf.edu/">University of Central Florida</a>. In my free time I build websites for side projects. <a href="#">View my full profile</a>.
+    I currently work as an Instructional Technologist @ <a href="https://erau.edu/">Embry-Riddle Aeronautical University</a>. I enjoy learning about, keeping up with, and teaching others how to use technology. I am an alumnus of the <a href="http://www.ucf.edu/">University of Central Florida</a>. In my free time I build websites for side projects. <a href="<?php echo home_url( '/profile/' );?>">View my full profile</a>.
 </section>
 
 <section class="latest section-content">
