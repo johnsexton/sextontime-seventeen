@@ -208,6 +208,10 @@ video {
 article {
     background: #fff;
 }
+article ul li {
+    padding: 5px;
+    list-style-type: square;
+}
 .entry-thumbnail img {
     margin: 0 auto;
     width: 100%;
