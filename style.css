@@ -65,6 +65,10 @@ body {
     position: relative;
     max-width: 1920px;
 }
+
+/***
+ * Site Header Styles
+ **/
 #homepage-ribbon {
     position: relative;
     height: 100vh;
@@ -108,7 +112,6 @@ video {
     background: url(images/logo.png) no-repeat;
     display: inline-block;
 }
-
 #site-description-wrapper {
     margin: 0 auto;
     display: table;
@@ -128,6 +131,9 @@ video {
     color: #00aaff;
 }
 
+/***
+ * Main Navigation Styles
+ **/
 #header-menu {
     padding: 30px 0;
     position: fixed;
@@ -166,6 +172,9 @@ video {
     background: url(images/cancel.png) no-repeat;
 }
 
+/***
+ * Page Content Styles
+ **/
 #content {
     margin: 0 auto;
     max-width: 1400px;
@@ -181,7 +190,6 @@ video {
 #content .latest a {
     color: #fff;
 }
-
 .section-content {
     position: relative;
     font-size: 20px;
@@ -197,6 +205,43 @@ video {
     font-family: "Century Gothic", sans-serif;
     font-size: 60px;
 }
+article {
+    background: #fff;
+}
+.entry-thumbnail img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.entry-header {
+}
+.entry-title {
+    margin: 0 auto;
+    padding: 60px 40px;
+    color: #fff;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+    background: #00aaff;
+}
+.header-meta {
+  font-size: 20px;
+  line-height: 20px;
+  color: #222;
+}
+.entry-content {
+    margin: 25px auto;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 1200px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Droid Serif', serif;
+}
+
+/***
+ * Homepage Styles
+ **/
 .profile {
     padding: 60px 40px 80px;
 }
@@ -210,6 +255,9 @@ video {
     width: 200px;
 }
 
+/***
+ * Post List Styles
+ **/
 .latest ul {
     margin: 0;
     padding: 40px 10px;
@@ -256,45 +304,9 @@ video {
     font-size: 20px;
 }
 
-.thatsall {
-    text-align: center;
-}
-
-
-article {
-    background: #fff;
-}
-.entry-thumbnail img {
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-}
-.entry-header {
-}
-.entry-title {
-    margin: 0 auto;
-    padding: 60px 40px;
-    color: #fff;
-    font-family: "Century Gothic", sans-serif;
-    font-size: 35px;
-    line-height: 50px;
-    background: #00aaff;
-}
-.header-meta {
-  font-size: 20px;
-  line-height: 20px;
-  color: #222;
-}
-.entry-content {
-    margin: 25px auto;
-    padding: 40px 20px;
-    width: 90%;
-    max-width: 1200px;
-    font-size: 20px;
-    font-weight: normal;
-    font-family: 'Droid Serif', serif;
-}
-
+/***
+ * Site Footer Styles
+ **/
 #site-footer {
     color: #fff;
     background: #333;
@@ -328,10 +340,6 @@ article {
 #footer-menu ul li a:hover {
     text-decoration: underline;
 }
-
-
-
-
 
 /* ==========================================================================
    Wordpress Core styles
