@@ -80,7 +80,7 @@ body {
     background: #333;
 }
 #ribbon-wrapper {
-    margin: 0 auto 50px auto;
+    margin: 0 auto;
     max-width: 1400px;
     height: 115px;
 }
@@ -537,6 +537,10 @@ img.aligncenter {
 }
 
 @media only screen and (min-width: 1350px) {
+    #ribbon-wrapper {
+        margin: 0 auto 50px auto;
+    }
+
     .latest ul li:nth-child(4) {
         display: inline-block;
     }
