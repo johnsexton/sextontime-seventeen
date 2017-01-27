@@ -1,14 +1,14 @@
 <?php get_header(); ?>
 
-<section class="section-content">
+<section class="section-content latest">
 
 	<header class="section-header">
-		<h1 class="section-title">Recent Entries</h1>
+		<h1 class="section-title">Journal Entries</h1>
 	</header>
 
 	<?php if ( have_posts() ) : ?>
 
-	<ul>
+	<ul class="clearfix">
 		<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
