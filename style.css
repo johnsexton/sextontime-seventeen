@@ -276,8 +276,8 @@ article ul li {
     max-width: 300px;
     display: none;
 }
-.latest ul li:nth-child(1),
-.latest ul li:nth-child(2) {
+.homepage .latest ul li:nth-child(1),
+.homepage .latest ul li:nth-child(2) {
     display: inline-block;
 }
 .latest .meta {
@@ -531,7 +531,7 @@ img.aligncenter {
         padding: 60px 200px 80px;
     }
 
-    .latest ul li:nth-child(3) {
+    .homepage .latest ul li:nth-child(3) {
         display: inline-block;
     }
 }
@@ -541,7 +541,7 @@ img.aligncenter {
         margin: 0 auto 50px auto;
     }
 
-    .latest ul li:nth-child(4) {
+    .homepage .latest ul li:nth-child(4) {
         display: inline-block;
     }
 }

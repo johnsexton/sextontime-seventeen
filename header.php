@@ -55,4 +55,4 @@
 
     </header><!-- #header -->
 
-    <div id="content" role="main">
+    <div id="content" <?php if ( is_front_page() ) : ?>class="homepage"<?php endif; ?> role="main">
