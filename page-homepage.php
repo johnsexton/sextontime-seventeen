@@ -13,8 +13,8 @@ get_header(); ?>
 
 <section class="latest section-content">
     <header class="section-header">
-        <h1 class="section-title">Latest Works</h1>
-        In my work as a freelance web designer, instructional technologist/designer, I've produced many projects that I want to put on display! Take a look at my latest works below. Feel free to contact me about them if you have any questions. I can talk about this stuff all day! <a href="<?php echo home_url( '/projects/' );?>">View all projects</a>.
+        <h1 class="section-title">Latest Projects</h1>
+        Over the years I've produced many projects that I want to put on display! Take a look at some of my featured projects below. Feel free to contact me about them if you have any questions. I can talk about this stuff all day! <a href="<?php echo home_url( '/projects/' );?>">View all projects</a>.
     </header>
 
     <ul class="clearfix">
