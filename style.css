@@ -269,12 +269,14 @@ article ul li {
     vertical-align: top;
 }
 .homepage .latest ul li {
+    display: none;
+}
+.latest ul li {
     margin: 10px;
     position: relative;
     list-style-type: none;
     display: inline-block;
     max-width: 300px;
-    display: none;
 }
 .homepage .latest ul li:nth-child(1),
 .homepage .latest ul li:nth-child(2) {
