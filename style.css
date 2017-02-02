@@ -380,6 +380,8 @@ img.alignnone,
 img.alignleft,
 img.aligncenter {
     margin: 20px auto;
+    max-width: 100%;
+    height: auto;
     display: block;
     float: none;
 }
