@@ -19,7 +19,7 @@ get_header(); ?>
 
     <ul class="clearfix">
         <?php
-        $wargs = array( 'post_count' => 5, 'post_type' => 'projects' );
+        $wargs = array( 'post_count' => 4, 'post_type' => 'projects' );
         $works = new WP_Query( $wargs );
         if ( $works->have_posts() ) { while ( $works->have_posts() ) {
             $works->the_post();
@@ -38,7 +38,7 @@ get_header(); ?>
 
     <ul class="clearfix">
         <?php
-        $sargs = array( 'post_count' => 5, 'post_type' => 'fishing' );
+        $sargs = array( 'post_count' => 4, 'post_type' => 'fishing' );
         $shares = new WP_Query( $sargs );
         if ( $shares->have_posts() ) { while ( $shares->have_posts() ) {
             $shares->the_post();
