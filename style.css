@@ -268,7 +268,7 @@ article ul li {
     text-align: center;
     vertical-align: top;
 }
-.latest ul li {
+.homepage .latest ul li {
     margin: 10px;
     position: relative;
     list-style-type: none;
