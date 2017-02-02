@@ -49,3 +49,26 @@ register_taxonomy(
 		"rewrite" => true
 	)
 );
+register_taxonomy(
+	"spot",
+	"fishing",
+	array(
+		"hierarchical" => true,
+		"label" => "Fishing Spots",
+		"singular_label" => "Spot",
+		"query_var" => true,
+		"rewrite" => true
+	)
+);
+
+register_taxonomy(
+	"caught",
+	"fishing",
+	array(
+		"hierarchical" => true,
+		"label" => "Fish Caught",
+		"singular_label" => "Fish",
+		"query_var" => true,
+		"rewrite" => true
+	)
+);
