@@ -265,7 +265,6 @@ article ul li {
 .latest ul {
     margin: 0;
     padding: 40px 10px;
-    overflow: hidden;
     text-align: center;
     vertical-align: top;
 }
