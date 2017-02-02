@@ -375,32 +375,13 @@ div.aligncenter {
     margin: 5px auto 5px auto;
 }
 
-img.alignright {
-    float: right;
-    margin: 5px 0 20px 20px;
-    max-width: 100%;
-    height: auto;
-}
-
-img.alignnone {
-    margin: 5px 20px 20px 0;
-    max-width: 100%;
-    height: auto;
-}
-
-img.alignleft {
-    float: left;
-    margin: 5px 20px 20px 0;
-    max-width: 100%;
-    height: auto;
-}
-
+img.alignright,
+img.alignnone,
+img.alignleft,
 img.aligncenter {
+    margin: 20px auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
+    float: none;
 }
 
 .wp-caption {
@@ -514,6 +495,34 @@ img.aligncenter {
 
     .entry-title {
         font-size: 50px;
+    }
+
+    img.alignright {
+        float: right;
+        margin: 5px 0 20px 20px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    img.alignnone {
+        margin: 5px 20px 20px 0;
+        max-width: 100%;
+        height: auto;
+    }
+
+    img.alignleft {
+        float: left;
+        margin: 5px 20px 20px 0;
+        max-width: 100%;
+        height: auto;
+    }
+
+    img.aligncenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
     }
 
     #copyright {
