@@ -1,10 +1,12 @@
 <?php get_header(); ?>
 
-<section class="section-content">
+<section class="section-content latest-journal">
 
 	<header class="section-header">
 		<h1 class="section-title">Journal Entries</h1>
 	</header>
+
+	<div class="alert">At this time, most journal posts are hidden as the site just went through a major redesign. Sorry for the inconvenience.</div>
 
 	<?php if ( have_posts() ) : ?>
 

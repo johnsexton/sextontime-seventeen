@@ -57,6 +57,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.alert {
+    padding: 10px;
+    background: red;
+    color: #fff;
+    text-align: center;
+}
+
 body {
     background: #fafafa;
 }
@@ -260,7 +267,26 @@ article ul li {
 }
 
 /***
- * Post List Styles
+ * Post List Styles (No Image)
+ **/
+ .latest-journal ul {
+     margin: 0;
+     padding: 40px 10px;
+ }
+ .latest-journal ul li {
+     padding: 15px 20px;
+     list-style-type: none;
+ }
+.latest-journal ul li .title {
+     font-size: 30px;
+ }
+.date {
+     color: #999;
+     font-size: 14px;
+ }
+
+/***
+ * Image Post List Styles
  **/
 .latest-thumbs ul {
     margin: 0;
@@ -302,10 +328,7 @@ article ul li {
 .meta {
     text-align: left;
 }
-.meta .date {
-    font-size: 14px;
-    font-style: italic;
-}
+
 .meta .preview-title {
     font-size: 20px;
 }
