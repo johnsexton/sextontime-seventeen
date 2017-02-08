@@ -187,7 +187,7 @@ video {
   text-decoration: underline;
 }
 #content .section-header a,
-#content .latest a {
+#content .latest-thumbs a {
     color: #fff;
 }
 .section-content {
@@ -262,16 +262,16 @@ article ul li {
 /***
  * Post List Styles
  **/
-.latest ul {
+.latest-thumbs ul {
     margin: 0;
     padding: 40px 10px;
     text-align: center;
     vertical-align: top;
 }
-.homepage .latest ul li {
+.homepage .latest-thumbs ul li {
     display: none;
 }
-.latest ul li {
+.latest-thumbs ul li {
     margin: 10px;
     position: relative;
     list-style-type: none;
@@ -282,7 +282,7 @@ article ul li {
 .homepage .latest ul li:nth-child(2) {
     display: inline-block;
 }
-.latest .meta {
+.latest-thumbs .meta {
     padding: 40px 20px;
     background: #222;
     position: absolute;
@@ -291,11 +291,11 @@ article ul li {
     left: 0;
     opacity: .9;
 }
-.latest ul li a {
+.latest-thumbs ul li a {
     display: inline-block;
     width: 100%;
 }
-.latest ul li a img {
+.latest-thumbs ul li a img {
     width: 300px;
     height: 300px;
 }
@@ -544,7 +544,7 @@ img.aligncenter {
         padding: 60px 200px 80px;
     }
 
-    .homepage .latest ul li:nth-child(3) {
+    .homepage .latest-thumbs ul li:nth-child(3) {
         display: inline-block;
     }
 }
@@ -554,7 +554,7 @@ img.aligncenter {
         margin: 0 auto 50px auto;
     }
 
-    .homepage .latest ul li:nth-child(4) {
+    .homepage .latest-thumbs ul li:nth-child(4) {
         display: inline-block;
     }
 }
