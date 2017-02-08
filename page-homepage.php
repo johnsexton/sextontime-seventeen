@@ -23,7 +23,7 @@ get_header(); ?>
         $works = new WP_Query( $wargs );
         if ( $works->have_posts() ) { while ( $works->have_posts() ) {
             $works->the_post();
-            get_template_part( 'content', 'homepage-list' );
+            get_template_part( 'content', 'thumbs-list' );
         }
         wp_reset_postdata(); }
         ?>
@@ -42,7 +42,7 @@ get_header(); ?>
         $shares = new WP_Query( $sargs );
         if ( $shares->have_posts() ) { while ( $shares->have_posts() ) {
             $shares->the_post();
-            get_template_part( 'content', 'homepage-list' );
+            get_template_part( 'content', 'thumbs-list' );
         }
         wp_reset_postdata(); }
         ?>
