@@ -278,8 +278,8 @@ article ul li {
     display: inline-block;
     max-width: 300px;
 }
-.homepage .latest ul li:nth-child(1),
-.homepage .latest ul li:nth-child(2) {
+.homepage .latest-thumbs ul li:nth-child(1),
+.homepage .latest-thumbs ul li:nth-child(2) {
     display: inline-block;
 }
 .latest-thumbs .meta {
