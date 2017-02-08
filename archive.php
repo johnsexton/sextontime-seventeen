@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="section-content latest">
+<section class="section-content latest-thumbs">
 
 	<?php if ( have_posts() ) : ?>
 

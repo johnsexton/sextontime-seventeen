@@ -35,7 +35,7 @@ $(document).ready( function() {
     });
 
     // show featured image on hover for latest posts
-    $( '.preview-link' ).hover(
+    $( '.latest .preview-link' ).hover(
         function() {
             $(this).find('.meta').slideUp();
         }, function() {

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="section-content latest">
+<section class="section-content">
 
 	<header class="section-header">
 		<h1 class="section-title">Journal Entries</h1>
@@ -13,7 +13,7 @@
 		// Start the loop.
 		while ( have_posts() ) : the_post();
 		// Call Content in List Format
-		get_template_part( 'content', 'list' );
+		get_template_part( 'content', 'journal-list' );
 		// End the loop.
 		endwhile;
 		?>
