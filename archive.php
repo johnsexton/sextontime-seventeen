@@ -15,7 +15,7 @@
 		// Start the loop.
 		while ( have_posts() ) : the_post();
 		// Call Content in List Format.
-		get_template_part( 'content', 'list' );
+		get_template_part( 'content', 'thumbs-list' );
 		// End the loop.
 		endwhile;
 		?>
