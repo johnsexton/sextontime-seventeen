@@ -6,8 +6,6 @@
 		<h1 class="section-title">Journal Entries</h1>
 	</header>
 
-	<div class="alert">At this time, most journal posts are hidden as the site just went through a major redesign. Sorry for the inconvenience.</div>
-
 	<?php if ( have_posts() ) : ?>
 
 	<ul class="clearfix">
