@@ -18,6 +18,7 @@
 <script src="<?php bloginfo('template_url'); ?>/js/plugins.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 
+<?php if ( !is_user_logged_in() ) : ?>
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -27,6 +28,8 @@
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-35137796-3','auto');ga('send','pageview');
 </script>
+<?php endif; ?>
+
 <?php wp_footer(); ?>
 
 </body>
