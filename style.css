@@ -365,6 +365,7 @@ article ul li {
     width: 40px;
     height: 40px;
     display: block;
+    text-indent: -9999px;
 }
 .social-github a { background: url(images/social-github.png) no-repeat; }
 .social-github:hover a { background: url(images/social-github-hover.png) no-repeat; }
