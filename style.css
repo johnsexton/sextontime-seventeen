@@ -357,18 +357,25 @@ article ul li {
 #footer-menu ul li {
     margin: 0;
     padding: 0;
-    display: inline;
+    display: inline-block;
     list-style-type: none;
 }
 #footer-menu ul li a {
-    padding: 0 10px;
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    display: block;
 }
-#footer-menu ul li a:hover {
-    text-decoration: underline;
-}
+.social-github a { background: url(images/social-github.png) no-repeat; }
+.social-github:hover a { background: url(images/social-github-hover.png) no-repeat; }
+.social-facebook a { background: url(images/social-facebook.png) no-repeat; }
+.social-facebook:hover a { background: url(images/social-facebook-hover.png) no-repeat; }
+.social-instagram a { background: url(images/social-instagram.png) no-repeat; }
+.social-instagram:hover a { background: url(images/social-instagram-hover.png) no-repeat; }
+.social-twitter a { background: url(images/social-twitter.png) no-repeat; }
+.social-twitter:hover a { background: url(images/social-twitter-hover.png) no-repeat; }
+.social-linkedin a { background: url(images/social-linkedin.png) no-repeat; }
+.social-linkedin:hover a { background: url(images/social-linkedin-hover.png) no-repeat; }
 
 /* ==========================================================================
    Wordpress Core styles
