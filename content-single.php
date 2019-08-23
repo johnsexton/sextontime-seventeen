@@ -1,7 +1,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
         <?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-        <div class="entry-thumbnail"><?php the_post_thumbnail('header'); ?></div>
+        <!-- <div class="entry-thumbnail"><?php the_post_thumbnail('header'); ?></div> -->
         <?php endif; ?>
         <h1 class="entry-title">
             <div class="header-meta">
